@@ -23,10 +23,7 @@ k.add([
 ])
 
 let counter = 0;
-let counterUI;
-if (!player.isOffScreen) {
-    counterUI = k.add([k.text("1")])
-}
+let counterUI = k.add([k.text("1")]);
 
 k.loop(1, () => {
     counter+=2;
