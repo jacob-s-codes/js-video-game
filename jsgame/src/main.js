@@ -29,7 +29,7 @@ if (!player.isOffScreen) {
 }
 
 k.loop(1, () => {
-    counter++;
+    counter+=2;
     counterUI.text = counter;
     const speeds = [300, 500, 800];
     const currentSpeed = speeds[Math.floor(Math.random()*speeds.length)];
