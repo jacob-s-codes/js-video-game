@@ -25,7 +25,7 @@ k.add([
 let counter = 0;
 let counterUI;
 if (!player.isOffScreen) {
-    counterUI = k.add([k.text("0")])
+    counterUI = k.add([k.text("1")])
 }
 
 k.loop(1, () => {
